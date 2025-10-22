@@ -751,6 +751,13 @@ html {
   nav.active {
     display: flex;
   }
+  .donation-box {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
 .faded-line {
   height: 1px;
@@ -800,4 +807,5 @@ html {
   color: #4B2743;
   text-align: center;
 }
+
 
