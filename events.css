@@ -4,7 +4,7 @@ body {
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
-main{
+main {
   font-family: 'Poppins', 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
@@ -353,6 +353,7 @@ nav a.active::after {
   color: #000;
   font-weight: 500;
 }
+
 .prayer-link:hover {
   text-decoration: underline;
 }
@@ -426,7 +427,8 @@ footer p {
 /* Gallery Section */
 .gallery-grid {
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping */
+  flex-wrap: wrap;
+  /* Allows wrapping */
   gap: 1rem;
   justify-content: center;
   align-items: flex-start;
@@ -437,12 +439,15 @@ footer p {
   max-height: 600px;
   width: auto;
   object-fit: contain;
-  transition: transform 0.3s ease; /* Smooth animation */
+  transition: transform 0.3s ease;
+  /* Smooth animation */
 }
 
 .gallery-images:hover {
-  transform: scale(1.05); /* Slight enlargement */
-  z-index: 1; /* Optional: bring image above others */
+  transform: scale(1.05);
+  /* Slight enlargement */
+  z-index: 1;
+  /* Optional: bring image above others */
 }
 
 .prayer-link {
@@ -450,9 +455,11 @@ footer p {
   color: #000;
   font-weight: 500;
 }
+
 .prayer-link:hover {
   text-decoration: underline;
 }
+
 /* Lightbox Styles */
 .lightbox {
   display: none;
@@ -494,8 +501,13 @@ footer p {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -510,7 +522,7 @@ footer p {
   }
 }
 
-.events-gallery h3{
+.events-gallery h3 {
   font-size: 1.8rem;
   font-weight: 400;
   color: #4B2743;
@@ -572,7 +584,6 @@ footer p {
 
 .cta-buttons button:hover {
   background-color: #3a1f35;
-
 }
 
 @media (max-width: 768px) {
@@ -580,6 +591,12 @@ footer p {
     width: 100%;
     max-width: 90%;
     margin: 0 auto 2rem auto;
+    padding: 1rem;
     box-sizing: border-box;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+  .notice-card{
+    text-align: center;
   }
 }
