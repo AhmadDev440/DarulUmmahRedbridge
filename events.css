@@ -572,4 +572,14 @@ footer p {
 
 .cta-buttons button:hover {
   background-color: #3a1f35;
+
+}
+
+@media (max-width: 768px) {
+  .notice-board {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto 2rem auto;
+    box-sizing: border-box;
+  }
 }
