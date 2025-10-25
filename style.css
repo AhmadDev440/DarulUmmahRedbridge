@@ -120,7 +120,7 @@ section {
 }
 
 #home {
-  background-image: url('Prayer\ Hall1.jpg');
+  background-image: url('/images/Prayer\ Hall1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -691,11 +691,6 @@ html {
     width: 100%;
   }
 
-  .notice-board {
-    width: 90%;
-    margin: 0 auto 2rem auto;
-  }
-
   .donation-box {
     width: 90%;
     margin: 0 auto;
@@ -718,7 +713,24 @@ html {
   .nav-right {
     display: none;
   }
+  .donation-box {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
+}
+
+@media (max-width: 768px) {
+  .notice-board {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
 }
 
 /*Hamburger*/
@@ -750,13 +762,6 @@ html {
 
   nav.active {
     display: flex;
-  }
-  .donation-box {
-    width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    text-align: center;
   }
 }
 .faded-line {
@@ -807,5 +812,4 @@ html {
   color: #4B2743;
   text-align: center;
 }
-
 
